@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.nitrkl.testtttttttttt">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".MyReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Details" />
+        <activity android:name=".email">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.email" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".image"
+            android:label="Gallery">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.image" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".netdata">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.netdata" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".animate">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.animate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tab">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.tab" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".browser">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.browser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".flipper">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.flipper" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".savedata">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.savedata" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".async">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.async" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".externaldata">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.externaldata" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".database1">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.database1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dbview">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.dbview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".accelerometer">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.accelerometer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".httpclient">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.httpclient" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".services">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.services" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+
+        <activity android:name=".bluetooth">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.testtttttttttt.bluetooth" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

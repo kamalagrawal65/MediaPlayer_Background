@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.ac.nitrkl.testtttttttttt.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:focusable="true" android:focusableInTouchMode="true"
+    >
+
+    <TextView
+        android:text="Hey there!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:id="@+id/text"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Add One"
+        android:id="@+id/clickadd"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Subtract One"
+        android:id="@+id/clicksub"/>
+
+    <Button
+    android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:text="Next Page"
+    android:id="@+id/secpage"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Send Data to Internet"
+        android:id="@+id/sendinternet"
+        android:layout_weight="80"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Database"
+        android:id="@+id/database1"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Menu"
+        android:id="@+id/menu"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Information"
+        android:id="@+id/email"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="View Flipper"
+        android:id="@+id/flipper"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Images"
+        android:id="@+id/image"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Animation"
+        android:id="@+id/animate"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Tabs"
+        android:id="@+id/tab"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Browser"
+        android:id="@+id/browser"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Save Data"
+        android:id="@+id/savedata"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="AsyncTask"
+        android:id="@+id/asynctask"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="HttpClient"
+        android:id="@+id/httpclient"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="External Data"
+        android:id="@+id/externaldata"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Accelerometer"
+        android:id="@+id/accelerometer"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Serivces"
+        android:id="@+id/service"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Bluetooth"
+        android:id="@+id/bluetooth"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Show my Name"
+        android:id="@+id/showname"
+        android:layout_weight="80"
+        />
+
+
+            <ToggleButton
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Toggle"
+            android:id="@+id/toggle"
+                android:layout_weight="20" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter Your name"
+        />
+</LinearLayout>
+</ScrollView>
